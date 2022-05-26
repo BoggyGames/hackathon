@@ -1,0 +1,15 @@
+{
+  "ifxdaq_version": "3.0.1",
+  "username": "Boggy",
+  "hostname": "DESKTOP-6QPPSS1",
+  "os": "Windows",
+  "os_release": "10",
+  "os_version": "10.0.19041",
+  "machine": "AMD64",
+  "python_version": "3.9.0",
+  "python_implementation": "CPython",
+  "torch_version": "NA",
+  "torchvision_version": "NA",
+  "cuda": "NA",
+  "date_captured": "2022-05-26T10:44:09.552021"
+}

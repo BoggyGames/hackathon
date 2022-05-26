@@ -1,0 +1,5 @@
+sensors:
+  RadarIfxAvian_00:
+    _target_: ifxdaq.sensor.radar_ifx.RadarIfxAvian
+    device_id: 00323153-4e46-3243-3039-303131303338
+    config_file: C:/Users/Boggy/Documents/GitHub/hackathon/submission/code/dataset/RadarIfxAvian_00.json
