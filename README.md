@@ -3,13 +3,15 @@
 
 # People Counting with Radar and ML (Hackathon)
 
+:information_source: **Please check [here](./submission) for details about the project submission.**
+
 ## Getting Started
 
 **TL;DR:** This quick guide explains how to acquire data from the Infineon radar board with Python.
 
 Please start by installing [Python](https://www.python.org/) and [Pip](https://pypi.org/project/pip/). We also recommend to install [Jupyter](https://jupyter.org/) for running the examples.
 
-:warning: The recommended version of Python is 3.7, but it also works with Python 3.9. Problems occur currently with Python 3.10.
+:warning: The recommended version of Python is 3.9, but it works with Python 3.7 to 3.9. Problems occur currently with Python 3.10.
 
 Afterwards you can clone this git repo:
 ```
@@ -37,7 +39,7 @@ pip install lsq-ellipse circle_fit
 
 ## Hackathon Material
 * [Challenge Introduction Slides](./challenge_introduction.pdf)
-* [People Counting Paper](./people_counting_paper.pdf)
+* [People Counting Papers](./reference_papers)
 
 ## Useful Links
 * [Radar Basics](./radar_basics.pdf)
@@ -52,7 +54,7 @@ pip install lsq-ellipse circle_fit
 The range map is the spectrum when using a single transmit frequency. The `x` value shows the distance between the radar sensor and the target. The `y` value shows the magnitude of the reflected signal.
 
 ### What is a Range Doppler Map?
-The range map is the spectrum when using varying transmit frequencies. The `x` value shows the distance between the radar sensor and the target. The `y` value shows the velocity of the target.
+The range doppler map is the spectrum when using varying transmit frequencies. The `x` value shows the distance between the radar sensor and the target. The `y` value shows the velocity of the target.
 
 ### What is a Chirp?
 A Chirp is a transmitted signal with varying frequency.
@@ -80,9 +82,17 @@ In the context of raw radar data, a Sample is the basic smallest building block 
 
 **Sarfaraz** (Software Developer for Signal Processing)
 
+<img src="./img/marco.jfif" alt="Marco" height="150"/>
+
+**Marco** (Technical Marketing Director)
+
+<img src="./img/lorenzo.jfif" alt="Lorenzo" height="150"/>
+
+**Lorenzo** (Master's Thesis student for Radar)
+
 <img src="./img/julian.jfif" alt="Julian" height="150"/>
 
 **Julian** (Senior Embedded Systems Engineer)
 
 ### How to reach us?
-Please [open an issue]([https://github.com/Infineon/hackathon/issues) in this repository to ask your questions or talk to someone at the location :)
+Please [open an issue](https://github.com/Infineon/hackathon/issues) in this repository to ask your questions or talk to someone at the location :)
